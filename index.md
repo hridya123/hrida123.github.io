@@ -1,31 +1,59 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Our menu</title>
-        <link rel="stylesheet" href="style.css"/>
-        <meta name="viewreport" content="width=device-width">
-    </head>
-    <body>
-        <div class="heading">
-            <h3>Our menu</h3>
+
+<head>
+    <title>
+        Assignment Solution for Module-2
+    </title>
+    <meta charset="utf-8">
+    <meta name = "viewport" content = "width=device-width, initial-scale=1">
+    <link rel = "stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1><u>Our Menu</u></h1>
+
+    <div class = "row">
+        <div class = "column bg">
+            <div class = "HEAD a">Pancakes</div>
+            
+            <p>
+                Lorem ipsum dolor sit amet consectetur 
+                adipisicing elit. Tenetur soluta sed, 
+                blanditiis quo sit aspernatur voluptatibus 
+                doloremque autem, reiciendis quisquam 
+                tempore voluptatem distinctio expedita nemo. 
+                Amet quae ipsam dolores quas!
+            </p>
+
         </div>
-        <div class="col">
-            <span class="box-head pink">
-                chicken
-            </span>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id enim id turpis ultricies lacinia quis non justo. Pellentesque tempor urna augue, et scelerisque ligula euismod a. Nulla hendreit enim nec fellis ullamcorper , id hendrerit turpis ullamcorper. Suspendisse sit amet massa vel lacus pharetra pellentesque. </p>
+        <div class = "column bg">
+            
+            <div class = "HEAD b">Sandwich</div>
+
+            <p> 
+                Lorem ipsum dolor sit amet consectetur 
+                adipisicing elit. Tenetur soluta sed, 
+                blanditiis quo sit aspernatur voluptatibus 
+                doloremque autem, reiciendis quisquam 
+                tempore voluptatem distinctio expedita nemo. 
+                Amet quae ipsam dolores quas!
+            </p>
         </div>
-        <div class="col">
-            <span class="box-head red">
-                Beef
-            </span>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id enim id turpis ultricies lacinia quis non justo. Pellentesque tempor urna augue, et scelerisque ligula euismod a. Nulla hendreit enim nec fellis ullamcorper , id hendrerit turpis ullamcorper. Suspendisse sit amet massa vel lacus pharetra pellentesque. </p>
+        <div class = "column bg1">
+            
+            <div class = "HEAD c">Burgers</div>
+            
+            <p>
+                Lorem ipsum dolor sit amet consectetur 
+                adipisicing elit. Tenetur soluta sed, 
+                blanditiis quo sit aspernatur voluptatibus 
+                doloremque autem, reiciendis quisquam 
+                tempore voluptatem distinctio expedita nemo. 
+                Amet quae ipsam dolores quas!
+            </p>
         </div>
-        <div class="col last">
-            <span class="box-head yellow">
-                Sushi
-            </span>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id enim id turpis ultricies lacinia quis non justo. Pellentesque tempor urna augue, et scelerisque ligula euismod a. Nulla hendreit enim nec fellis ullamcorper , id hendrerit turpis ullamcorper. Suspendisse sit amet massa vel lacus pharetra pellentesque. </p>
-        </div>
-    </body>
+    </div>
+</body>
 </html>
