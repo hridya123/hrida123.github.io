@@ -19,7 +19,7 @@ div{
     border: 1px solid black;
 }
 
-.bg{
+.column bg{
     background-color: red;
 }
 .bg1{
@@ -27,7 +27,7 @@ div{
 }
 
 
-.HEAD{
+.HEAD a{
     position: absolute;
     top: 0px;
     right: 0px;
