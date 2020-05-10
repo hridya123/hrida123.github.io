@@ -1,59 +1,82 @@
-<!DOCTYPE html>
-<html>
+*{
+    margin:0px;
+    box-sizing: border-box;
+}
 
-<head>
-    <title>
-        Assignment Solution for Module-2
-    </title>
-    <meta charset="utf-8">
-    <meta name = "viewport" content = "width=device-width, initial-scale=1">
-    <link rel = "stylesheet" href="style.css">
-</head>
+h1{
+    text-align: center;
+    margin: 60px;
+}
+div{
+    
+    position: relative;
+} 
+.column{
+    
+    width: 32%;
+    float: left;
+    margin: 6px;
+    border: 1px solid black;
+}
 
-<body>
+.bg{
+    background-color: burlywood;
+}
+.bg1{
+    background-color: burlywood;;
+}
 
-    <h1><u>Our Menu</u></h1>
 
-    <div class = "row">
-        <div class = "column bg">
-            <div class = "HEAD a">Pancakes</div>
-            
-            <p>
-                Lorem ipsum dolor sit amet consectetur 
-                adipisicing elit. Tenetur soluta sed, 
-                blanditiis quo sit aspernatur voluptatibus 
-                doloremque autem, reiciendis quisquam 
-                tempore voluptatem distinctio expedita nemo. 
-                Amet quae ipsam dolores quas!
-            </p>
+.HEAD{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    padding: 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+}
+.a{
+    background-color:  rgb(189, 79, 79);;
+}
 
-        </div>
-        <div class = "column bg">
-            
-            <div class = "HEAD b">Sandwich</div>
+.b{
+    background-color:  purple;
+}
 
-            <p> 
-                Lorem ipsum dolor sit amet consectetur 
-                adipisicing elit. Tenetur soluta sed, 
-                blanditiis quo sit aspernatur voluptatibus 
-                doloremque autem, reiciendis quisquam 
-                tempore voluptatem distinctio expedita nemo. 
-                Amet quae ipsam dolores quas!
-            </p>
-        </div>
-        <div class = "column bg1">
-            
-            <div class = "HEAD c">Burgers</div>
-            
-            <p>
-                Lorem ipsum dolor sit amet consectetur 
-                adipisicing elit. Tenetur soluta sed, 
-                blanditiis quo sit aspernatur voluptatibus 
-                doloremque autem, reiciendis quisquam 
-                tempore voluptatem distinctio expedita nemo. 
-                Amet quae ipsam dolores quas!
-            </p>
-        </div>
-    </div>
-</body>
-</html>
+.c{
+    background-color:  green;
+}
+
+p{
+    padding:25px 15px 15px 15px;
+    text-align: left;
+    
+}
+
+@media (min-width:992px){
+
+}
+
+@media (min-width:768px) and (max-width:991px){
+    .column{
+        width: 48%;
+        margin-right: 2.5px;
+        margin-left: 10px; 
+    }
+    .bg1{
+        width: 97.3%;
+        clear: both;
+    }
+}
+@media (max-width:767px){
+
+    .column{
+        width: 90%;
+        margin-left: 5%;
+        
+       
+    }
+
+}
