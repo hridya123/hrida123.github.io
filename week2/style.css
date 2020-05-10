@@ -11,7 +11,7 @@ div{
     
     position: relative;
 } 
-.column{
+.row{
     
     width: 32%;
     float: left;
