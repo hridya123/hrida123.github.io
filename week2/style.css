@@ -22,7 +22,7 @@ div{
 .column bg{
     background-color: red;
 }
-.bg1{
+.column bg1{
     background-color: burlywood;;
 }
 
@@ -37,15 +37,15 @@ div{
     border-bottom: 1px solid black;
     border-left: 1px solid black;
 }
-.a{
+.HEAD a{
     background-color:  rgb(189, 79, 79);;
 }
 
-.b{
+.HEAD b{
     background-color:  purple;
 }
 
-.c{
+.HEAD c{
     background-color:  green;
 }
 
